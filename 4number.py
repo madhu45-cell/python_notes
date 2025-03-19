@@ -1,7 +1,7 @@
 # Python Numbers
-
-# There are three numeric types in Python:
 '''
+There are three numeric types in Python:
+
 int - Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
 float - Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
 complex - Complex numbers are written with a "j" as the imaginary part:

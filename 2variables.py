@@ -35,6 +35,40 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 # Illegal variable names.
+'''
 2myvar = "John"
 my-var = "John"
 my var = "John"
+'''
+
+
+
+# Multi Words Variable Names
+'''
+Variable names with more than one word can be difficult to read.
+There are several techniques you can use to make them more readable:
+'''
+# Camel Case
+myVariableName = "John"
+# Pascal Case
+MyVariableName = "John"
+# Snake Case
+my_variable_name = "John"
+'''we use most of camel & snake case technique.'''
+
+
+
+
+# Python allows you to assign values to multiple variables in one line.
+x, y, z = "Orange", "Banana", "Cherry"
+
+# And you can assign the same value to multiple variables in one line.
+x = y = z = "Orange"
+''' Make sure the number of variables matches the number of values, or else you will get an error.'''
+
+
+# The Python print() function is often used to output variables.
+x = "Python is awesome"
+print(x) #Python is awesome
+
+

@@ -1,10 +1,15 @@
-import pandas as pd
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
+# python syntax.
+print('hello world')
 
-#load data into a DataFrame object:
-df = pd.DataFrame(data)
+# Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+# Python uses indentation to indicate a block of code.
+# Python will give you an error if you skip the indentation.
+a,b = 0
+if a>b:
+    print(a)
 
-print(df) 
+
+# single line Comments starts with a #, and Python will ignore them.
+# muliline comments starts with triple quotes.
+
+
