@@ -121,10 +121,22 @@ print(c) #HelloWorld
 But we can combine strings and numbers by using f-strings or the format() method!
 '''
 '''F-Strings
-To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for can contain variables, operations, functions, and modifiers to format the value.
 '''
 age = 36
 txt = f"My name is John, I am {age}"
-print(txt) #
+print(txt) #My name is John, I am 36
 
+
+# Escape Character
+'''To insert characters that are illegal in a string, use an escape character.
+An escape character is a backslash \ followed by the character you want to insert.
+'''
+'''You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+txt = "We are the so-called "Vikings" from the north."
+'''
+'''To fix this problem, use the escape character \":
+The escape character allows you to use double quotes when you normally would not be allowed:
+'''
+txt = "We are the so-called \"Vikings\" from the north."
 
