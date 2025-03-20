@@ -135,5 +135,5 @@ print(h not in o) #True
 4th +  -	        Addition and subtraction
 the same precedence, and therefore we evaluate the expression from left to right:
 '''
-print((6 + 3) - (6 + 3))
+print((6 + 3) - (6 + 3)) #0
 print(5 + 4 - 7 + 3) #5
