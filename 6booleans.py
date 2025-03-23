@@ -15,10 +15,10 @@ print(bool(15)) #True
 print(bool(["apple", "cherry", "banana"])) #True
 
 '''Some Values are False'''
-print(bool(False))
-print(bool(None))
-print(bool(0))
-print(bool(""))
-print(bool(()))
-print(bool([]))
-print(bool({}))
+print(bool(False)) #False
+print(bool(None)) #False
+print(bool(0)) #False
+print(bool("")) #False
+print(bool(())) #False
+print(bool([])) #False
+print(bool({})) #False

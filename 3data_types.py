@@ -5,8 +5,8 @@
 '''
 Text Type:   	    str
 Numeric Types:	    int, float, complex
-Sequence Types: 	list, tuple, range
-Mapping Type:	    dict
+Sequence Types: 	list(mutable), tuple(immutable), range
+Mapping Type:	    dict(mutable)
 Set Types:	        set, frozenset
 Boolean Type:   	bool
 Binary Types:	    bytes, bytearray, memoryview
